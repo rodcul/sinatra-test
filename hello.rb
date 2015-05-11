@@ -1,9 +1,8 @@
 require 'sinatra'
 
 get '/' do
-  "<div style='border: 3px dashed red'>
-  <img src = 'http://cdn.meme.am/instances/500x/58391759.jpg'>
-  </div>"
+  @name = %w(Tinkleberry Oscarmayer Marjorie).sample
+  erb :index
 end
 
 get '/secret' do
