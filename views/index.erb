@@ -1,4 +1,11 @@
-<div style='border: 3px dashed red'>
+<html>
+<head>
+<title>I can haz cheezburger</title>
+<link href="/css/default.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+<div id="outPopUp">
   <% if @visitor %>
   <p>Hello, <%= @visitor %>!</p>
   <% else %>
@@ -9,5 +16,6 @@
       <input type="submit">
     </form>
   <% end %>
-  <img src='/images/kitten.jpg'>
+
 </div>
+</body>

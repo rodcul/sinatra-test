@@ -1,0 +1,19 @@
+html {
+  background: url(/images/kitten.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-size: 20px;
+}
+
+#outPopUp{
+     position:absolute;
+     width:600px;
+     height:100px;
+     z-index:15;
+     top:20%;
+     left:50%;
+     margin:-100px 0 0 -150px;
+
+}
