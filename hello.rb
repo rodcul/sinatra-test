@@ -1,6 +1,7 @@
 require 'sinatra'
 
 get '/' do
+  @name = 'Rodney'
   erb :index
 end
 
