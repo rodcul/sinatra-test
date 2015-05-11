@@ -1,9 +1,14 @@
 require 'sinatra'
 
 get '/' do
-  'heya'
+  "<div style='border: 3px dashed red'>
+  <img src = 'http://cdn.meme.am/instances/500x/58391759.jpg'>
+  </div>"
 end
 
 get '/secret' do
-  'this is a secret page, reloaded with shotgun!'
+  Time.now
+  puts 3.even?
+  'oh'
+
 end
